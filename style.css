@@ -5,16 +5,18 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   background-color: #eee;
-  overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
 }
 .txtc{
   margin: 5vw;
 }
 nav {
-  width: 100%;
-  background-color: #fff;
+  width: 100vw;
   position: sticky;
   height: 5.5vh;
+  background-color: #fff;
   border-bottom: 3px solid #ccc;
 }
 nav li, nav a {
